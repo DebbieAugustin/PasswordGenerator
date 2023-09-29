@@ -1,0 +1,62 @@
+/* Make it look pretty */
+
+/* Center the content vertically and horizontally */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Take the full viewport height */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 238, 245);
+}
+
+
+
+h1 {
+    color: #131329;
+    margin-bottom: 30px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    text-shadow: 5px 5px 2px #a0c3ea; /*add shadow and blur effect*/
+}
+
+form {
+    padding: 20px;
+    background-color: #ded0ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds shadow to form box*/
+    text-align: center; /* Center form contents horizontally */
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 6px;
+    font-size: 15px;
+    margin-bottom: 10px; /* Add space between input and button */
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer; /* changes mouse pointer*/
+ 
+}
+
+button:hover {
+    background-color: #494545; /* Creates a fade affect over button*/
+}
+
+
+p1{
+    font-size: 20px;
+}
+
+.result{
+    font-weight: bold;
+    font-size: 20px;
+}
